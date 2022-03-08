@@ -1,8 +1,8 @@
-## Self-Supervised Monte Carlo Tree Search Learning for Object Retrieval in Clutter
+## Interleaving Monte Carlo Tree Search and Self-Supervised Learning for Object Retrieval in Clutter
 
 ### Baichuan Huang, Teng Guo, Abdeslam Boularias and Jingjin Yu
 
-Submitted to ICRA 2022
+Accepted by ICRA 2022
 
 Video illustrating the work:
 
