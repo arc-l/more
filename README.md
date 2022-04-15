@@ -2,11 +2,11 @@
 
 **Abstract.** In this study, working with the task of object retrieval in clutter, we have developed a robot learning framework in which Monte Carlo Tree Search (MCTS) is first applied to enable a Deep Neural Network (DNN) to learn the intricate interactions between a robot arm and a complex scene containing many objects, allowing the DNN to partially clone the behavior of MCTS. In turn, the trained DNN is integrated into MCTS to help guide its search effort. We call this approach learning-guided Monte Carlo tree search for Object REtrieval (MORE), which delivers significant computational efficiency gains and added solution optimality. MORE is a self-supervised robotics framework/pipeline capable of working in the real world that successfully embodies the System 2 to System 1 learning philosophy proposed by Kahneman, where learned knowledge, used properly, can help greatly speed up a time-consuming decision process over time.
 
-[YouTube, repalce this link](https://arxiv.org/pdf/2010.14406.pdf)&nbsp;&nbsp;•&nbsp;&nbsp;[PDF](https://arxiv.org/pdf/2010.14406.pdf)&nbsp;&nbsp;•&nbsp;&nbsp;International Conference on Robotics and Automation (ICRA) 2022
+[YouTube](https://youtu.be/hLYKq8JMDqE)&nbsp;&nbsp;•&nbsp;&nbsp;[PDF](https://arxiv.org/pdf/2010.14406.pdf)&nbsp;&nbsp;•&nbsp;&nbsp;International Conference on Robotics and Automation (ICRA) 2022
 
 *[Baichuan Huang](https://baichuan05.github.io/), Teng Guo, [Abdeslam Boularias](http://rl.cs.rutgers.edu/abdeslam.html), [Jingjin Yu](http://jingjinyu.com/)*
 
-Video with sound illustrating the work (high-quality video can be access at [YouTube](https://arxiv.org/pdf/2010.14406.pdf)):
+Video with sound illustrating the work (high-quality video can be access at [YouTube](https://youtu.be/hLYKq8JMDqE)):
 
 https://user-images.githubusercontent.com/20850928/163514798-2bd29c01-a1a8-40ae-8632-b052d2cdfb47.mp4
 
