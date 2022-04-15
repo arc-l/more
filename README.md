@@ -2,7 +2,7 @@
 
 **Abstract.** In this study, working with the task of object retrieval in clutter, we have developed a robot learning framework in which Monte Carlo Tree Search (MCTS) is first applied to enable a Deep Neural Network (DNN) to learn the intricate interactions between a robot arm and a complex scene containing many objects, allowing the DNN to partially clone the behavior of MCTS. In turn, the trained DNN is integrated into MCTS to help guide its search effort. We call this approach learning-guided Monte Carlo tree search for Object REtrieval (MORE), which delivers significant computational efficiency gains and added solution optimality. MORE is a self-supervised robotics framework/pipeline capable of working in the real world that successfully embodies the System 2 to System 1 learning philosophy proposed by Kahneman, where learned knowledge, used properly, can help greatly speed up a time-consuming decision process over time.
 
-[YouTube](https://youtu.be/hLYKq8JMDqE)&nbsp;&nbsp;•&nbsp;&nbsp;[PDF](https://arxiv.org/pdf/2010.14406.pdf)&nbsp;&nbsp;•&nbsp;&nbsp;International Conference on Robotics and Automation (ICRA) 2022
+[YouTube](https://youtu.be/hLYKq8JMDqE)&nbsp;&nbsp;•&nbsp;&nbsp;[PDF](https://arxiv.org/abs/2202.01426)&nbsp;&nbsp;•&nbsp;&nbsp;International Conference on Robotics and Automation (ICRA) 2022
 
 *[Baichuan Huang](https://baichuan05.github.io/), Teng Guo, [Abdeslam Boularias](http://rl.cs.rutgers.edu/abdeslam.html), [Jingjin Yu](http://jingjinyu.com/)*
 
@@ -77,3 +77,23 @@ There are two rounds of training.
 * The first run, `python lifelong_trainer.py --dataset_root 'logs_mcts/train' --ratio 1`.
 Then, comment out line 30-35 in `lifelong_trainer.py`, and uncomment line 36-41.
 * The second run, `python lifelong_trainer.py --dataset_root 'logs_mcts/train' --ratio 1 --pretrained_model 'logs_mcts/runs/PATH_TO_FIRST_RUN/lifelong_model-50.pth'`.
+
+
+## Citing MORE
+If this work helps your research, please cite the [MORE](https://arxiv.org/abs/2202.01426):
+
+```
+@inproceedings{huang2022interleaving,
+  title        = {Interleaving Monte Carlo Tree Search and Self-Supervised Learning for Object Retrieval in Clutter},
+  author       = {Huang, Baichuan and Guo, Teng and Boularias, Abdeslam and Yu, Jingjin},
+  booktitle    = {2022 IEEE International Conference on Robotics and Automation (ICRA)},
+  year         = {2022},
+  organization = {IEEE}
+}
+```
+
+This work also builds on many other papers. We found the following resources are helpful!
+* https://github.com/google-research/ravens
+* https://github.com/andyzeng/visual-pushing-grasping
+* https://github.com/arc-l/vft
+* https://github.com/arc-l/dipn
